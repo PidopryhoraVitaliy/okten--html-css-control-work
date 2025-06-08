@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+body {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    margin-top: 80px;
+}
+.w-1250 {
+    width: 1250px;
+    margin: 0 auto;
+}
+
+/* ------------------------------------ HEADER ------------------------------------ */
+header {
+    width: 100vw;
+    height: 86px;
+    display: flex;
+    justify-content: center;
+    background: #EFF0F3;
+    position: fixed;
+    top: 0;
+    box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: baseline;
+}
+.logo h3 {
+    color: #001858;
+    font-size: 36px;
+    font-weight: 600;
+}
+.logo span {
+    color: #6246EA;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+header nav {
+    display: flex;
+    gap: 50px;
+}
+header nav ul {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    color: #2B2C34;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+header nav ul li:last-child {
+    display: flex;
+    align-items: center;
+}
+header nav ul li:last-child svg {
+    height: 17px;
+    margin-right: 10px;
+}
+header nav button {
+    display: flex;
+    align-content: center;
+    padding: 10px 17px;
+    align-items: flex-start;
+    gap: 10px;
+    color: #FFFFFE;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+    border-radius: 4px;
+    background: #6246EA;
+}
+header nav button span {
+    height: 23px;
+}
+
+/* ------------------------------------ SECTION HERO ------------------------------------ */
+section {
+    width: 100vw;
+    height: 900px;
+    background: #EFF0F3;
+}
+/*.hero {*/
+/*    background: #EFF0F3;*/
+/*}*/
+/*.hero .hero-info {*/
+/*    !*margin-top: 271px;*!*/
+/*}*/
+
+
+
+
+
